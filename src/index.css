@@ -1,13 +1,144 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+
+/** @format */
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+.navbar {
+  display: block;
+  padding: 20px;
+  padding-top: 5px;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-image: url('/src/netflix2.jpg');
+  box-shadow: 0 4px 8px rgb(121, 117, 117);
+}
+.dark {
+  color: rgb(248, 244, 244);
+  text-align: center;
+}
+.dark p {
+  color: rgb(248, 243, 243);
+  font-size: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section {
+  padding: 20px;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+.navbar h1 {
+  color: red;
+  font-size: 30px;
+}
+
+.bot {
+  justify-items: right;
+  margin-left: auto;
+  
+}
+.bott {
+  display: block;
+} 
+.black {
+  background-color: #333;
+  color: white;
+}
+select {
+  background-color: #333;
+  color: white;
+}
+.but {
+  background-color: red;
+  color: white;
+  margin-left: 5px;
+  padding: 5px;
+}
+input {
+  padding: 5px;
+  background-color: #333;
+  color: white;
+}
+.color-sec {
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #0a0909;
+  color: white;
+}
+.color-sec h2 {
+  font-size: 15px;
+}
+
+.ques-net {
+ background-color: #0a0909;
+ color: white;
+}
+.ques-net h1 {
+  text-align: center;
+  color: white;
+}.cen {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  color: white;
+}
+.one {
+  border: 1px 2px solid black;
+  padding: 5px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+.two {
+  border: 1px 2px solid black;
+  padding: 5px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+.three {
+  border: 1px 2px solid black;
+  padding: 5px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+.four {
+  border: 1px 2px solid black;
+  padding: 5px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+.five {
+  border: 1px 2px solid black;
+  padding: 5px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+.six {
+  border: 1px 2px solid black;
+  padding: 5px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+.net {
+  width: 130px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.foot {
+  margin-left: 20px;
+  padding-bottom: 1px;
+}
+.feet {
+  display: flex;
+} 
+.footer {
+  background-color: black;
+  color: white;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
